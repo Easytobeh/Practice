@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesInUsage", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesInUse", "DelegatesInUse\DelegatesInUse.csproj", "{4620D38A-4F70-4B43-8D70-B7357B0FE093}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateMultiCasting", "DelegateMultiCasting\DelegateMultiCasting.csproj", "{AAE1998F-D248-4B62-8E9F-62B6EB25C30C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{4620D38A-4F70-4B43-8D70-B7357B0FE093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4620D38A-4F70-4B43-8D70-B7357B0FE093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4620D38A-4F70-4B43-8D70-B7357B0FE093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE1998F-D248-4B62-8E9F-62B6EB25C30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE1998F-D248-4B62-8E9F-62B6EB25C30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE1998F-D248-4B62-8E9F-62B6EB25C30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE1998F-D248-4B62-8E9F-62B6EB25C30C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
