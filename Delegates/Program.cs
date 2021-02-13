@@ -9,16 +9,14 @@ namespace Delegates
     
     class Program
     {
-        public delegate void HelloMethodDelegate(int Message); 
+        public delegate void HelloMethodDelegate(string Message); 
         static void Main(string[] args)
         {
             HelloMethodDelegate del = new HelloMethodDelegate(HelloMethod);
-            var msg = Int32.Parse("H");
-            Console.WriteLine(msg);
-           // del(msg);
+           del("Hello");
         }
 
-        public static void HelloMethod(int Message)
+        public static void HelloMethod(string Message)
         {
             Console.WriteLine(Message);
 
